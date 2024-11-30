@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.98cdeb6a.css",
+    "main.js": "/portfolio/static/js/main.965cc9a5.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Gradient.png": "/portfolio/static/media/Gradient.f10214a00dc0b37d9d29.png",
+    "static/media/Bharath.png": "/portfolio/static/media/Bharath.b79095360f52551f2577.png",
+    "static/media/mobile-removebg-preview.png": "/portfolio/static/media/mobile-removebg-preview.efdce215bda1eca7223d.png",
+    "static/media/sql-removebg-preview.png": "/portfolio/static/media/sql-removebg-preview.a05046aaaf4df49519cd.png",
+    "static/media/blood-removebg-preview.png": "/portfolio/static/media/blood-removebg-preview.70e460d5e6787f1cfd65.png",
+    "static/media/mlogo-removebg-preview.png": "/portfolio/static/media/mlogo-removebg-preview.c62df939f41a90fa5b7c.png",
+    "static/media/express-removebg-preview.png": "/portfolio/static/media/express-removebg-preview.431f827177273d15bd1a.png",
+    "static/media/react_js-removebg-preview.png": "/portfolio/static/media/react_js-removebg-preview.58152acdeb7b017a9a69.png",
+    "static/media/c-removebg-preview.png": "/portfolio/static/media/c-removebg-preview.20af7cb9b5fbd2ce717c.png",
+    "static/media/emlogo-removebg-preview.png": "/portfolio/static/media/emlogo-removebg-preview.da4ba3d811fb1b9e7e76.png",
+    "static/media/mongo-removebg-preview.png": "/portfolio/static/media/mongo-removebg-preview.4b80c564179666d939c4.png",
+    "static/media/linlogo-removebg-preview.png": "/portfolio/static/media/linlogo-removebg-preview.080392a3185fbb559d59.png",
+    "static/media/java-removebg-preview.png": "/portfolio/static/media/java-removebg-preview.0c975416aef7cb5a0669.png",
+    "static/media/node-removebg-preview.png": "/portfolio/static/media/node-removebg-preview.bd60838891105e25c3c2.png",
+    "static/media/object.jpg": "/portfolio/static/media/object.e2650ced8ab5e87c21b2.jpg",
+    "static/media/native-removebg-preview.png": "/portfolio/static/media/native-removebg-preview.9f8b634cd9865f2e8e81.png",
+    "index.html": "/portfolio/index.html",
+    "main.98cdeb6a.css.map": "/portfolio/static/css/main.98cdeb6a.css.map",
+    "main.965cc9a5.js.map": "/portfolio/static/js/main.965cc9a5.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98cdeb6a.css",
+    "static/js/main.965cc9a5.js"
+  ]
+}
