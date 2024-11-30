@@ -1,0 +1,62 @@
+.skillsmain {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-right: 160px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.skills :last-child{
+  margin-bottom: 0px;
+}
+.skillssub{
+    display: flex;
+    flex-direction: row;
+
+}
+.skillimage {
+  height: 100px;
+  width: 100px;
+  background-image: url("../images/Gradient.png");
+  background-size: contain,cover;
+  resize: both;
+  object-fit: contain,cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+}
+.skillcontent{
+    font-size: 30px;
+    font-style: italic;
+    color: blanchedalmond;
+}
+
+@media (max-width: 768px) {
+    .skillsmain {
+        margin-left: 5px;
+        margin-right: 10px;
+      }
+      .skills {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5px;
+        margin-left: 5px;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+      .skills :last-child{
+        margin-bottom: 0px;
+      }
+      .skillimage {
+        height: 80px;
+        width: 75px;
+        background-image: url("../images/Gradient.png");
+        background-size: contain,cover;
+        resize: both;
+        object-fit: contain,cover;
+        background-repeat: no-repeat;
+        margin-top: 5px;
+      }
+}

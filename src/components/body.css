@@ -1,0 +1,98 @@
+#Bharathimage {
+  height: 250px;
+  width: 250px;
+  margin-left: 200px;
+  background-image: url("../images/Gradient.png");
+  background-size: contain;
+  resize: both;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  margin-top: 5px;
+}
+.Resume{
+  margin-left: 250px;
+  color: white;
+  text-decoration: none;
+}
+.Bodymain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@keyframes contentanimate {
+  0% {
+    transform: translateX(800px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.Bodycontent {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+.content1 {
+  font-size: 30px;
+  animation: contentanimate 1.5s linear 0s 1;
+  
+}
+.content2 {
+  font-size: 25px;
+  opacity: 0;
+  animation: contentanimate 1.5s linear 1.5s 1;
+  animation-fill-mode: forwards;
+  margin-top: 0px;
+}
+.content3 {
+  font-size: 23px;
+  opacity: 0;
+  animation: contentanimate 2s linear 1.5s 1;
+  animation-fill-mode: forwards;
+  margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+  @keyframes contentanimate {
+    0% {
+      transform: translateX(500px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  #Bharathimage {
+    height: 150px;
+    width: 150px;
+    margin-left: 1px;
+  }
+  .Resume{
+    margin-left: 30px;
+  }
+  .Bodycontent {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content1 {
+    font-size: 30px;
+    animation: contentanimate 1s linear 0s 1 1;
+  }
+  .content2 {
+    font-size: 20px;
+    opacity: 0;
+    animation: contentanimate 1s linear 1s 1;
+    animation-fill-mode: forwards;
+  }
+  .content3 {
+    font-size: 12px;
+    opacity: 0;
+    animation: contentanimate 1s linear 2s 1;
+    animation-fill-mode: forwards;
+  }
+}

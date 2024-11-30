@@ -1,0 +1,77 @@
+.aboutmain {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.aboutimage {
+  width: 250px;
+  height: 300px;
+  margin-top: -10px;
+  background-image: url("../images/Gradient.png");
+  background-size: contain;
+  resize: both;
+  object-fit: cover, contain;
+  background-repeat: no-repeat;
+  margin-top: -60px;
+  margin-left: 20px;
+}
+.abouthead {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: blanchedalmond;
+}
+.aboutbody {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.aboutcontent {
+  width: 800px;
+  height: auto;
+  box-shadow: 8px 8px 8px 8px grey;
+}
+
+@media (max-width: 768px) {
+  .aboutmain {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .aboutbody {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .aboutcontent {
+    display: flex; /* Make the container a flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-evenly; /* Distribute space evenly between items */
+    align-items: center; /* Center items horizontally if needed */
+    width: 300px;
+    height: auto;
+    padding: 20px; /* Add padding inside the container */
+    box-shadow: 8px 8px 8px 8px grey;
+    margin: auto;
+  }
+  .aboutimage {
+    width: 250px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: 25px;
+    background-image: url("../images/Gradient.png");
+    background-size: contain;
+    resize: both;
+    object-fit: cover, contain;
+    background-repeat: no-repeat;
+    margin-top: -60px;
+  }
+  .abouthead {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: blanchedalmond;
+  }
+}

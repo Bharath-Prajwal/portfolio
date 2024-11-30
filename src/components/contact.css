@@ -1,0 +1,45 @@
+.contmain {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+.concontent {
+  font-size: 30px;
+  font-style: italic;
+  color: blanchedalmond;
+}
+.contentdetails {
+  display: flex;
+  flex-direction: column;
+}
+.particulardetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  background-image: url("../images/Gradient.png");
+  background-size: contain, cover;
+  resize: both;
+
+  object-fit: contain;
+}
+.space {
+  width: 100px;
+}
+.linkdin{
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .contmain {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+      }
+      .space {
+        width: 20px;
+      }
+}

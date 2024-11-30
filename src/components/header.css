@@ -1,0 +1,47 @@
+.header{
+    color: white;
+    overflow-x: hidden;
+}
+#navid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#headdivid{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+.head{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:  0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+@media (max-width: 768px) {
+    #navid {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #headdivid {
+        display: flex;
+       flex-direction: row;
+       align-items: flex-end;
+    }
+
+    .head {
+        margin-right: 0; 
+    }
+
+   
+}
+

@@ -1,0 +1,85 @@
+.projectmain{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.procontent{
+    font-size: 30px;
+    font-style: italic;
+    color: blanchedalmond;
+}
+.projmain{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.projimage{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projcontent{
+    width: 600px;
+    height: auto;
+    box-shadow: 8px 8px 8px 8px white;
+    padding: 2px;
+    font-style: italic;
+}
+.horizontal{
+    width: 200px;  /* Adjust width of the line */
+    height: 6px;  /* Make it span the full height of the container */
+    background-color: white;
+    z-index: 1;
+    margin-left: -20px;
+}
+.projecthead{
+    font-size: 20px;
+    font-style: italic;
+}
+.link{
+    color: aqua;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .projectmain{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .horizontal{
+        width: 6px;  /* Adjust width of the line */
+        height: 80px;  /* Make it span the full height of the container */
+        background-color: white;
+        z-index: 1;
+        margin-top: -80px;
+    }
+    .projimage{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+        border-radius: 50%;
+        z-index: 2;
+    }
+    .projcontent{
+        width: auto;
+        height: auto;
+        box-shadow: 8px 8px 8px 8px white;
+        padding: 2px;
+    }
+    .projmain{
+        display: flex;
+        flex-direction: column;
+        margin-top: -70px;
+    }
+}
